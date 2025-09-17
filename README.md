@@ -28,6 +28,7 @@ Para expandir a capacidade de armazenamento, um novo disco de dados (`datadisk-0
 ### 3. Desanexação do Disco de Dados
 A tarefa de gerenciamento principal foi executada ao desanexar o `datadisk-01` da VM. O disco não é excluído e permanece disponível no grupo de recursos para uso futuro.
 
+![Criação de VM](VM.jpg)
 
 Os SLAs (Acordos de Nível de Serviço) das máquinas virtuais (VMs) do Azure garantem uma porcentagem de tempo de atividade, que se traduz em um tempo máximo de inatividade aceitável semanal, mensal e anual. Quanto maior a porcentagem do SLA, menor é o tempo de inatividade permitido e maior será o custo para o serviço.
 SLAs e tempo de inatividade:
@@ -60,5 +61,5 @@ GZRS (Redundância de Zona Geográfica): Combina ZRS na região primária com re
 
 A escolha do SLA, das opções de disponibilidade e do tipo de redundância de armazenamento depende dos seus requisitos de resiliência e orçamento. Um SLA mais elevado garante menos tempo de inatividade, mas custa mais.
 
-![Uploading {C6BCD1DD-99CC-49ED-B93E-CC5F4911B8B3}.png…]()
+
 
